@@ -1,0 +1,332 @@
+body {
+    background-color: rgb(177, 243, 199);
+}
+
+/*--------- FOR MOBILE LOOKS ---------*/
+@media only screen and (max-width: 768px) {
+
+#tab {
+    display: none;
+}
+
+nav {
+    width: 100%;
+    margin-top: -25px;
+    position: fixed;
+}
+
+#ul {
+    background-color: rgb(243, 230, 230);
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 20px;
+}
+
+nav ul li{
+	
+	display: inline-block;
+}
+
+#cart {
+    transition: 0.3s;
+}
+
+#location {
+    transition: 0.3s;
+}
+
+#cart:hover {
+    cursor: pointer;
+    color: blue;
+    font-size: 25px;
+}
+
+#location:hover {
+    cursor: pointer;
+    color: blue;
+    font-size: 25px;
+}
+
+#navlogo {
+    padding-right: 30%;
+    float: left;
+    transition: 0.3s;
+    
+}
+
+#navlogo:hover {
+    cursor: pointer;
+    color: blue;
+    
+}
+
+#sidebar {
+    
+    background-color: rgb(187, 216, 216);
+    color: rgb(85, 85, 43);
+    margin-top: -16px;
+    padding: 2px 5px;
+    transition-delay: 1s;
+    display: none;
+    
+}
+
+#sidebar ol li {
+    list-style-type: none;
+}
+
+#close {
+    font-size: 25px;
+}
+
+.side-tag {
+    transition: 0.5s;
+}
+
+.side-tag:hover {
+    cursor: pointer;
+    color: rgb(132, 192, 19);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header {
+    padding-right: 50px;
+    
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(130, 18, 145);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#location {
+    float: right;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+#cart {
+    float: right;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+#main-body {
+    background-image: url(images/backimg.jpg);
+    background-position: center;
+    background-size: 200%;
+    text-align: center;
+    padding-top: 80px;
+    width: auto;
+    height: 300px;
+    font-size: 30px;
+    color: rgb(41, 25, 20);
+    box-shadow: 2px 2px 2px black;
+    font-family: 'Indie Flower', cursive;
+
+
+}
+
+.text {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(26, 26, 82);
+}
+
+.img {
+    width: 100%;
+    height: 50%;
+    transition: 0.5s;
+    
+}
+
+.img:hover {
+    box-shadow: 3px 3px 3px rgb(21, 26, 3);
+    border-radius: 70%;
+    
+}
+
+.descrip {
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(41, 25, 20);
+    transition: 0.3s;
+}
+
+.descrip:hover {
+    color: blueviolet;
+    box-shadow: 1px 1px 1px 1px rgb(78, 68, 12);
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#end {
+    background-color: rgb(29, 20, 20);
+    color: antiquewhite;
+    text-align: center;
+    height: 150px;
+    padding: 10px;
+}
+
+#end input {
+    padding: 5px;
+    width: 80%;
+}
+
+footer {
+    background-color: rgb(35, 35, 87);
+    color: rgb(177, 172, 145);
+    text-align: center;
+    margin-top: -20px;
+    padding: 7px;
+}
+
+}
+
+/*---------   FOR TABLET LOOKS ---------*/
+
+@media only screen and (min-width: 768px) {
+    
+    #mobile {
+        display: none;
+    }
+
+    nav {
+        margin: -25px -8px 0 -8px;
+        position: fixed;
+        width: 100%;
+        opacity: 0.86;
+    }
+
+    nav ul li{
+	
+        display: inline-block;
+    }
+
+    #tablet-ul {
+        background-color: rgb(243, 230, 230);
+        color: black;
+        width: 100%;
+        
+        padding: 30px 0 30px 0;
+        padding-left: 15px;
+    }
+
+    #bell {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 35px;
+        color: rgb(130, 18, 145);
+    }
+
+    .tags {
+        padding-left: 43px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 0.3s linear;
+        
+    }
+
+    .icons {
+        float: right;
+        padding-right: 30px;
+        font-size: 22px;
+        transition: 0.3s;
+    }
+
+    .icons:hover  {
+        cursor: pointer;
+        color: blue;
+        font-size: 30px;
+    }
+
+    .tags:hover {
+        text-decoration: none;
+        box-shadow: 2px 2px 2px rgb(83, 28, 28);
+        font-size: 20px;
+        color: rgb(102, 64, 192);
+        cursor: pointer;
+    }
+
+
+    #tab-img img {
+        width: 105%;
+        height: 700px;
+        margin: -15px;
+       
+    }
+
+    #tab-img img:hover {
+        cursor: pointer;
+        
+    }
+
+    #tab-img h2 {
+        text-align: center;
+        margin-top: -350px;
+        color: rgb(201, 199, 209);
+        
+        font-family: 'Indie Flower', cursive;
+        font-size: 50px;
+        
+    }
+
+    #tab-img h2:hover {
+        color: rgb(255, 255, 255);
+    }
+
+    #text1 {
+        text-align: center;
+        margin-top: 230px;
+        font-size: 20px;
+        width: 100%;
+        color: rgb(26, 26, 82);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+
+    .row-font {
+        font-size: 157x;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 0.58s;
+        margin-left: 25%;
+    }
+
+    .row-font:hover {
+        cursor: pointer;
+        color: cornflowerblue;
+    }
+
+
+    .row-font img {
+        width: 70%;
+        height: 70%;
+        box-shadow: 3px 3px 3px blue;
+        transition: 0.3s;
+    }
+
+    .row-font img:hover {
+        width: 75%;
+        height: 75%
+        
+    }
+
+    #end {
+        background-color: rgb(164, 182, 140);
+        color: rgb(27, 22, 11);
+        text-align: center;
+        height: 150px;
+        padding: 10px;
+    }
+    
+    #end input {
+        padding: 5px;
+        width: 30%;
+    }
+   
+    footer {
+        background-color: rgb(35, 35, 87);
+        color: rgb(177, 172, 145);
+        text-align: center;
+        margin-top: 0;
+        padding: 5px;
+    }
+
+}
